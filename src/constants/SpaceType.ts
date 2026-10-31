@@ -1,0 +1,14 @@
+
+export type SpaceType = "PROPERTY" | "RAILROAD" | "UTILITY" | "GO" | "TAX" | "CHANCE" | "COMMUNITY_CHEST" | "JAIL" | "FREE_PARKING" | "GO_TO_JAIL";
+export const SpaceType = {
+    PROPERTY: "PROPERTY",
+    RAILROAD: "RAILROAD",
+    UTILITY: "UTILITY",
+    GO: "GO",
+    TAX: "TAX",
+    CHANCE: "CHANCE",
+    COMMUNITY_CHEST: "COMMUNITY_CHEST",
+    JAIL: "JAIL",
+    FREE_PARKING: "FREE_PARKING",
+    GO_TO_JAIL: "GO_TO_JAIL"
+};

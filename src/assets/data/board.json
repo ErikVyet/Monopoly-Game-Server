@@ -1,0 +1,472 @@
+{
+  "properties": [
+    {
+      "id": "mediterranean-avenue",
+      "name": "Mediterranean Avenue",
+      "position": 1,
+      "group": "BROWN",
+      "price": 60,
+      "houseCost": 50,
+      "mortgageValue": 30,
+      "rentTier": [
+        { "tier": 0, "price": 2 },
+        { "tier": 1, "price": 10 },
+        { "tier": 2, "price": 30 },
+        { "tier": 3, "price": 90 },
+        { "tier": 4, "price": 160 },
+        { "tier": 5, "price": 250 }
+      ]
+    },
+    {
+      "id": "baltic-avenue",
+      "name": "Baltic Avenue",
+      "position": 3,
+      "group": "BROWN",
+      "price": 60,
+      "houseCost": 50,
+      "mortgageValue": 30,
+      "rentTier": [
+        { "tier": 0, "price": 4 },
+        { "tier": 1, "price": 20 },
+        { "tier": 2, "price": 60 },
+        { "tier": 3, "price": 180 },
+        { "tier": 4, "price": 320 },
+        { "tier": 5, "price": 450 }
+      ]
+    },
+    {
+      "id": "oriental-avenue",
+      "name": "Oriental Avenue",
+      "position": 6,
+      "group": "CYAN",
+      "price": 100,
+      "houseCost": 50,
+      "mortgageValue": 50,
+      "rentTier": [
+        { "tier": 0, "price": 6 },
+        { "tier": 1, "price": 30 },
+        { "tier": 2, "price": 90 },
+        { "tier": 3, "price": 270 },
+        { "tier": 4, "price": 400 },
+        { "tier": 5, "price": 550 }
+      ]
+    },
+    {
+      "id": "vermont-avenue",
+      "name": "Vermont Avenue",
+      "position": 8,
+      "group": "CYAN",
+      "price": 100,
+      "houseCost": 50,
+      "mortgageValue": 50,
+      "rentTier": [
+        { "tier": 0, "price": 6 },
+        { "tier": 1, "price": 30 },
+        { "tier": 2, "price": 90 },
+        { "tier": 3, "price": 270 },
+        { "tier": 4, "price": 400 },
+        { "tier": 5, "price": 550 }
+      ]
+    },
+    {
+      "id": "connecticut-avenue",
+      "name": "Connecticut Avenue",
+      "position": 9,
+      "group": "CYAN",
+      "price": 120,
+      "houseCost": 50,
+      "mortgageValue": 60,
+      "rentTier": [
+        { "tier": 0, "price": 8 },
+        { "tier": 1, "price": 40 },
+        { "tier": 2, "price": 100 },
+        { "tier": 3, "price": 300 },
+        { "tier": 4, "price": 450 },
+        { "tier": 5, "price": 600 }
+      ]
+    },
+    {
+      "id": "st-charles-place",
+      "name": "St. Charles Place",
+      "position": 11,
+      "group": "PINK",
+      "price": 140,
+      "houseCost": 100,
+      "mortgageValue": 70,
+      "rentTier": [
+        { "tier": 0, "price": 10 },
+        { "tier": 1, "price": 50 },
+        { "tier": 2, "price": 150 },
+        { "tier": 3, "price": 450 },
+        { "tier": 4, "price": 625 },
+        { "tier": 5, "price": 750 }
+      ]
+    },
+    {
+      "id": "states-avenue",
+      "name": "States Avenue",
+      "position": 13,
+      "group": "PINK",
+      "price": 140,
+      "houseCost": 100,
+      "mortgageValue": 70,
+      "rentTier": [
+        { "tier": 0, "price": 10 },
+        { "tier": 1, "price": 50 },
+        { "tier": 2, "price": 150 },
+        { "tier": 3, "price": 450 },
+        { "tier": 4, "price": 625 },
+        { "tier": 5, "price": 750 }
+      ]
+    },
+    {
+      "id": "virginia-avenue",
+      "name": "Virginia Avenue",
+      "position": 14,
+      "group": "PINK",
+      "price": 160,
+      "houseCost": 100,
+      "mortgageValue": 80,
+      "rentTier": [
+        { "tier": 0, "price": 12 },
+        { "tier": 1, "price": 60 },
+        { "tier": 2, "price": 180 },
+        { "tier": 3, "price": 500 },
+        { "tier": 4, "price": 700 },
+        { "tier": 5, "price": 900 }
+      ]
+    },
+    {
+      "id": "st-james-place",
+      "name": "St. James Place",
+      "position": 16,
+      "group": "ORANGE",
+      "price": 180,
+      "houseCost": 100,
+      "mortgageValue": 90,
+      "rentTier": [
+        { "tier": 0, "price": 14 },
+        { "tier": 1, "price": 70 },
+        { "tier": 2, "price": 200 },
+        { "tier": 3, "price": 550 },
+        { "tier": 4, "price": 750 },
+        { "tier": 5, "price": 950 }
+      ]
+    },
+    {
+      "id": "tennessee-avenue",
+      "name": "Tennessee Avenue",
+      "position": 18,
+      "group": "ORANGE",
+      "price": 180,
+      "houseCost": 100,
+      "mortgageValue": 90,
+      "rentTier": [
+        { "tier": 0, "price": 14 },
+        { "tier": 1, "price": 70 },
+        { "tier": 2, "price": 200 },
+        { "tier": 3, "price": 550 },
+        { "tier": 4, "price": 750 },
+        { "tier": 5, "price": 950 }
+      ]
+    },
+    {
+      "id": "new-york-avenue",
+      "name": "New York Avenue",
+      "position": 19,
+      "group": "ORANGE",
+      "price": 200,
+      "houseCost": 100,
+      "mortgageValue": 100,
+      "rentTier": [
+        { "tier": 0, "price": 16 },
+        { "tier": 1, "price": 80 },
+        { "tier": 2, "price": 220 },
+        { "tier": 3, "price": 600 },
+        { "tier": 4, "price": 800 },
+        { "tier": 5, "price": 1000 }
+      ]
+    },
+    {
+      "id": "kentucky-avenue",
+      "name": "Kentucky Avenue",
+      "position": 21,
+      "group": "RED",
+      "price": 220,
+      "houseCost": 150,
+      "mortgageValue": 110,
+      "rentTier": [
+        { "tier": 0, "price": 18 },
+        { "tier": 1, "price": 90 },
+        { "tier": 2, "price": 250 },
+        { "tier": 3, "price": 700 },
+        { "tier": 4, "price": 875 },
+        { "tier": 5, "price": 1050 }
+      ]
+    },
+    {
+      "id": "indiana-avenue",
+      "name": "Indiana Avenue",
+      "position": 23,
+      "group": "RED",
+      "price": 220,
+      "houseCost": 150,
+      "mortgageValue": 110,
+      "rentTier": [
+        { "tier": 0, "price": 18 },
+        { "tier": 1, "price": 90 },
+        { "tier": 2, "price": 250 },
+        { "tier": 3, "price": 700 },
+        { "tier": 4, "price": 875 },
+        { "tier": 5, "price": 1050 }
+      ]
+    },
+    {
+      "id": "illinois-avenue",
+      "name": "Illinois Avenue",
+      "position": 24,
+      "group": "RED",
+      "price": 240,
+      "houseCost": 150,
+      "mortgageValue": 120,
+      "rentTier": [
+        { "tier": 0, "price": 20 },
+        { "tier": 1, "price": 100 },
+        { "tier": 2, "price": 300 },
+        { "tier": 3, "price": 750 },
+        { "tier": 4, "price": 925 },
+        { "tier": 5, "price": 1100 }
+      ]
+    },
+    {
+      "id": "atlantic-avenue",
+      "name": "Atlantic Avenue",
+      "position": 26,
+      "group": "YELLOW",
+      "price": 260,
+      "houseCost": 150,
+      "mortgageValue": 130,
+      "rentTier": [
+        { "tier": 0, "price": 22 },
+        { "tier": 1, "price": 110 },
+        { "tier": 2, "price": 330 },
+        { "tier": 3, "price": 800 },
+        { "tier": 4, "price": 975 },
+        { "tier": 5, "price": 1150 }
+      ]
+    },
+    {
+      "id": "ventnor-avenue",
+      "name": "Ventnor Avenue",
+      "position": 27,
+      "group": "YELLOW",
+      "price": 260,
+      "houseCost": 150,
+      "mortgageValue": 130,
+      "rentTier": [
+        { "tier": 0, "price": 22 },
+        { "tier": 1, "price": 110 },
+        { "tier": 2, "price": 330 },
+        { "tier": 3, "price": 800 },
+        { "tier": 4, "price": 975 },
+        { "tier": 5, "price": 1150 }
+      ]
+    },
+    {
+      "id": "marvin-gardens",
+      "name": "Marvin Gardens",
+      "position": 29,
+      "group": "YELLOW",
+      "price": 280,
+      "houseCost": 150,
+      "mortgageValue": 140,
+      "rentTier": [
+        { "tier": 0, "price": 24 },
+        { "tier": 1, "price": 120 },
+        { "tier": 2, "price": 360 },
+        { "tier": 3, "price": 850 },
+        { "tier": 4, "price": 1025 },
+        { "tier": 5, "price": 1200 }
+      ]
+    },
+    {
+      "id": "pacific-avenue",
+      "name": "Pacific Avenue",
+      "position": 31,
+      "group": "GREEN",
+      "price": 300,
+      "houseCost": 200,
+      "mortgageValue": 150,
+      "rentTier": [
+        { "tier": 0, "price": 26 },
+        { "tier": 1, "price": 130 },
+        { "tier": 2, "price": 390 },
+        { "tier": 3, "price": 900 },
+        { "tier": 4, "price": 1100 },
+        { "tier": 5, "price": 1275 }
+      ]
+    },
+    {
+      "id": "north-carolina-avenue",
+      "name": "North Carolina Avenue",
+      "position": 32,
+      "group": "GREEN",
+      "price": 300,
+      "houseCost": 200,
+      "mortgageValue": 150,
+      "rentTier": [
+        { "tier": 0, "price": 26 },
+        { "tier": 1, "price": 130 },
+        { "tier": 2, "price": 390 },
+        { "tier": 3, "price": 900 },
+        { "tier": 4, "price": 1100 },
+        { "tier": 5, "price": 1275 }
+      ]
+    },
+    {
+      "id": "pennsylvania-avenue",
+      "name": "Pennsylvania Avenue",
+      "position": 34,
+      "group": "GREEN",
+      "price": 320,
+      "houseCost": 200,
+      "mortgageValue": 160,
+      "rentTier": [
+        { "tier": 0, "price": 28 },
+        { "tier": 1, "price": 150 },
+        { "tier": 2, "price": 450 },
+        { "tier": 3, "price": 1000 },
+        { "tier": 4, "price": 1200 },
+        { "tier": 5, "price": 1400 }
+      ]
+    },
+    {
+      "id": "park-place",
+      "name": "Park Place",
+      "position": 37,
+      "group": "BLUE",
+      "price": 350,
+      "houseCost": 200,
+      "mortgageValue": 175,
+      "rentTier": [
+        { "tier": 0, "price": 35 },
+        { "tier": 1, "price": 175 },
+        { "tier": 2, "price": 500 },
+        { "tier": 3, "price": 1100 },
+        { "tier": 4, "price": 1300 },
+        { "tier": 5, "price": 1500 }
+      ]
+    },
+    {
+      "id": "boardwalk",
+      "name": "Boardwalk",
+      "position": 39,
+      "group": "BLUE",
+      "price": 400,
+      "houseCost": 200,
+      "mortgageValue": 200,
+      "rentTier": [
+        { "tier": 0, "price": 50 },
+        { "tier": 1, "price": 200 },
+        { "tier": 2, "price": 600 },
+        { "tier": 3, "price": 1400 },
+        { "tier": 4, "price": 1700 },
+        { "tier": 5, "price": 2000 }
+      ]
+    }
+  ],
+  "railroads": [
+    {
+      "id": "reading-railroad",
+      "name": "Reading Railroad",
+      "position": 5,
+      "group": "RAILROAD",
+      "price": 200,
+      "mortgageValue": 100
+    },
+    {
+      "id": "pennsylvania-railroad",
+      "name": "Pennsylvania Railroad",
+      "position": 15,
+      "group": "RAILROAD",
+      "price": 200,
+      "mortgageValue": 100
+    },
+    {
+      "id": "b&o-railroad",
+      "name": "B&O Railroad",
+      "position": 25,
+      "group": "RAILROAD",
+      "price": 200,
+      "mortgageValue": 100
+    },
+    {
+      "id": "short-line-railroad",
+      "name": "Short Line Railroad",
+      "position": 35,
+      "group": "RAILROAD",
+      "price": 200,
+      "mortgageValue": 100
+    }
+  ],
+  "utilities": [
+    {
+      "id": "electric-company",
+      "name": "Electric Company",
+      "position": 12,
+      "group": "UTILITY",
+      "price": 150,
+      "mortgageValue": 75
+    },
+    {
+      "id": "water-works",
+      "name": "Water Works",
+      "position": 28,
+      "group": "RAILROAD",
+      "price": 150,
+      "mortgageValue": 75
+    }
+  ],
+  "taxes": [
+    {
+      "id": "income-tax",
+      "name": "Income Tax",
+      "position": 4,
+      "value": 200
+    },
+    {
+      "id": "luxury-tax",
+      "name": "Luxury Tax",
+      "position": 38,
+      "value": 100
+    }
+  ],
+  "chests": [
+    {
+      "id": "community-chest-1",
+      "position": 2
+    },
+    {
+      "id": "community-chest-2",
+      "position": 17
+    },
+    {
+      "id": "community-chest-3",
+      "position": 33
+    }
+  ],
+  "chances": [
+    {
+      "id": "chance-1",
+      "position": 7
+    },
+    {
+      "id": "chance-2",
+      "position": 22
+    },
+    {
+      "id": "chance-3",
+      "position": 36
+    }
+  ]
+}
